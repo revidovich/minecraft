@@ -7,7 +7,6 @@ export const App = () => {
     return (
         <Provider store={store}>
             <div id="map">
-                {/* <MapC /> */}
             </div>
         </Provider>
     );
