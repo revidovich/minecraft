@@ -1,13 +1,15 @@
 import { Provider } from 'react-redux';
 import { store } from '@/store';
 import '../main.css';
-import { MapC } from './MapC';
+// import { Input } from './Input';
+import MyComponent from './MyComponent';
 
-export const App = () => {
+const App = () => {
     return (
         <Provider store={store}>
-            <div id="map">
-            </div>
+            <MyComponent />
         </Provider>
     );
 };
+
+export default App;
